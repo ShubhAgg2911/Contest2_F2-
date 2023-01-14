@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+input {
+    margin: 5px;
+}
+
+button{
+    margin-left: 30px;
+    width: 80px;
+    height: 32px;
+    margin-bottom: 15px;
+}
+
+.boxes{
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.lower-text{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+table {
+    width: 50%;
+    margin-left: 30px;
+}
+
+#a{
+    margin-left: 30px;
+    margin-top: 10px;
+}

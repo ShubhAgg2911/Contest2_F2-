@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>New Employees</h1>
+        <div class="boxes">
+        <div class="info">
+            <p>Name</p>
+            <input type="text" id="name">
+        </div>
+        <div class="info">
+            <p>Profession</p>
+            <input type="text" id="proffession">
+        </div>
+        <div class="info">
+            <p>Age</p>
+            <input type="number" id="age" min="01">
+        </div>
+    </div>
+    </div>
+    <button onclick="add()">Add User</button>
+
+    <p id="m"></p>
+    <div class="lower-text" >
+        <p>Added Employees</p>
+    </div>
+
+    
+       <table id="tb">
+        <p id="a">You have 0 Employees.</p>
+       </table>
+       <script src="script.js"></script>
+</body>
+
+</html>
